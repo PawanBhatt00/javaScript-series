@@ -1,16 +1,16 @@
 let num=90;
 let n=undefined;
 
-console.log(typeof(num));//number
-console.log(typeof n);//string
+// console.log(typeof(num));//number
+// console.log(typeof n);//string
 
 
 //type conversion 
 
 let val= Number(n)
-console.log(val);//NaN=> not a number can't convert it into the number just strick check
+// console.log(val);//NaN=> not a number can't convert it into the number just strick check
 
-console.log(typeof val)//number 
+// console.log(typeof val)//number 
 
 
 
@@ -19,5 +19,26 @@ console.log(typeof val)//number
 // true=>1, false=>0
 // null=>0
 // undefined=>NaN
+
+
+let counter=90 
+++counter
+// console.log(counter);
+
+
+let a=80
+var b="80"
+
+console.log(a==b)
+
+
+// console.log(typeof(a));
+// console.log(typeof(b));
+
+// console.log(22==="22");
+
+
+
+
 
 
