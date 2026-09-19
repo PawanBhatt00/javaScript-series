@@ -29,7 +29,7 @@ let counter=90
 let a=80
 var b="80"
 
-console.log(a==b)
+// console.log(a==b)
 
 
 // console.log(typeof(a));
@@ -37,6 +37,16 @@ console.log(a==b)
 
 // console.log(22==="22");
 
+
+
+
+
+
+console.log(null==0);//false
+console.log(null>=0);//true
+
+
+//we have to always avoid these type of conversion and equality check because they are not the predictable 
 
 
 
